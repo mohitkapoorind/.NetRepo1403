@@ -52,9 +52,9 @@ variables:
   poolVmImage: ''
   buildArgs: ''
   configuration: 'Release'
-  beforeBuild: []
+  #beforeBuild: []
   # steps: []  don't define an empty object default because there is no way in template expression yet to check "if isEmpty(parameters.steps)"
-  afterBuild: []
+  #afterBuild: []
   codeSign: false
   variables: {}
   dependsOn: ''
