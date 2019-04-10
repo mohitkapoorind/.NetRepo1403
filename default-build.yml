@@ -46,7 +46,7 @@
 # See https://docs.microsoft.com/en-us/vsts/pipelines/yaml-schema for details
 #
 
-parameters:
+variables:
   agentOs: 'Windows'
   poolName: ''
   poolVmImage: ''
